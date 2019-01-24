@@ -12,6 +12,6 @@ package ca.sheridancollege.week2.softwarefundamentals;
 public class CardDemo {
     public static void main (String args[]){
         Card c1 = new Card("Hiojoi", 150);
-        System.out.println(c1.getValue() + " for " + c1.getSuit());
+        System.out.println(c1.getValue() + " for the " + c1.getSuit());
     }
 }
